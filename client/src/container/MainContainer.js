@@ -34,8 +34,8 @@ const MainContainer = () => {
 
     return (
         <>
-            <h1> welcome to the hotel, PLEASE ENJOY YOUR STAY</h1>
-            <p>stuff that might get replaced with better stuff</p>
+            <h1> Welcome to the Hotel Clanecodia</h1>
+            <p> PLEASE ENJOY YOUR STAY</p>
             <div className='bookings'>
                 <BookingForm addBooking = {addBooking}/>
                 <BookingList  allBookings={allBookings} deleteBooking={deleteBooking}/>

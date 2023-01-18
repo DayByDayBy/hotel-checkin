@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background-color:hsla(344, 17%, 74%, 0.384);
+  background-color:hsla(344, 17%, 74%, 0.4);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,8 +16,13 @@ h1{
 ul {
   display: flex;
   justify-content: space-evenly;
+  background-color: #f9f1e65a;
+  border-radius: 5rem;
   list-style: none;
   flex-wrap: wrap;
+  padding: 5rem;
+  height: auto;
+  width: auto;
 }
 
 li
@@ -25,24 +30,34 @@ li
   display:flex;
   flex-direction: column;
   padding: .5;
-  border: solid;
+  margin: 1rem;
+  max-width: 150px;
+  border-radius: 1rem;
   padding: 20px;
 }
 
 li.true {
-  background-color: green;
+  background-color: #5aae5a;
 }
 
 li.false {
- background-color: red;
+ background-color: rgba(130, 175, 194, 0.3);
 }
 
-
-
-@media (max-width: 400px) {
-  .spread {
-    flex-basis: 100%;
-    flex-wrap: wrap;
-  }
+form{
+  display: flex center;
+  flex-direction: row;
+  border-radius: 1rem;
+  margin: 3rem;
+  padding:1rem;
+  background-color: hsla(35, 61%, 94%, 0.3);
+  height: auto;
 }
 
+input,
+button,
+textarea,
+select {
+  font: inherit;
+
+}

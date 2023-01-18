@@ -24,9 +24,5 @@ const Booking = ({ booking, deleteBooking }) => {
     )
 }
 
-// this is some text
-// this is some text
-// this is some text
-// this is some text
 
 export default Booking;
