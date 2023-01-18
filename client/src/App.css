@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  background-color:hsla(344, 17%, 74%, 0.384);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  text-align:center;
+}
+
+h1{
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+li
+ {
+  display:flex;
+  flex-direction: column;
+  padding: .5;
+  border: solid;
+  padding: 20px;
+}
+
+li.true {
+  background-color: green;
+}
+
+li.false {
+ background-color: red;
+}
+
+
+
+@media (max-width: 400px) {
+  .spread {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+  }
+}
+
