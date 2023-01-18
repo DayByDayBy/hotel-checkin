@@ -12,11 +12,9 @@ dd {
   margin: 0;
 }
 
-
-
 body{
   margin: 0;
-  background-color:hsla(30, 21%, 78%, 0.4);
+  background-color:hsla(30, 21%, 78%, 0.42);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,14 +27,14 @@ h1{
   margin-bottom: .5rem;
 }
 
-ul {
+ul.booking-list {
   display: flex;
   justify-content: space-evenly;
-  background-color: #f9f1e65a;
+  background-color: hsla(35, 61%, 94%, 0.6);
   border-radius: 5rem;
   list-style: none;
   flex-wrap: wrap;
-  padding: 5rem;
+  padding: 2rem;
   height: auto;
   width: auto;
 }
@@ -63,10 +61,10 @@ li.false {
 form{
   display: flex center;
   flex-direction: row;
-  border-radius: 1rem;
-  margin: 3rem;
-  padding:1rem;
-  background-color: hsla(35, 61%, 94%, 0.3);
+  border-radius: 2rem 2rem 0rem 0rem;
+  margin: 0rem 8rem;
+  padding: 2rem 0rem 1rem 0rem;
+  background-color: hsla(35, 61%, 94%, 0.5);
   height: auto;
 }
 
@@ -75,5 +73,9 @@ button,
 textarea,
 select {
   font: inherit;
-
+  border-radius: 4px;
+  border:none;
+  padding:8px;
+  margin:4px;
+  opacity: .9;
 }

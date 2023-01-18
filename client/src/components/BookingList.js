@@ -8,7 +8,7 @@ const BookingList =({allBookings,deleteBooking}) =>{
     })
 
     return (
-        <ul>
+        <ul className="booking-list">
         {bookingNodes}
         </ul>
     )
