@@ -35,8 +35,8 @@ const BookingForm = ({addBooking}) => {
     
     return (
         <form>
-            <input type="text" value={formData.name} placeholder="name" name="name" onChange={handleChange}/>
-            <input type="text" value={formData.email} placeholder="e-mail" name="email" onChange={handleChange}/>
+            <input type="text" value={formData.name} placeholder="name" name="name" required onChange={handleChange}  />
+            <input type="text" value={formData.email} placeholder="e-mail" name="email" required onChange={handleChange}  />
             <select name="checked_in" onChange={handleChange}>
                 <option value="">Checked in?</option>
                 <option value="true">Yes</option>

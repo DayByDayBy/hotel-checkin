@@ -23,11 +23,10 @@ body{
 }
 
 h1{
-  margin: 0;
   margin-bottom: .5rem;
 }
 
-ul.booking-list {
+ul.booking-list{
   display: flex;
   justify-content: space-evenly;
   background-color: hsla(35, 61%, 94%, 0.6);
@@ -37,17 +36,16 @@ ul.booking-list {
   padding: 2rem;
   height: auto;
   width: auto;
+  max-width: 800px;
 }
 
-li
- {
+li{
   display:flex;
   flex-direction: column;
-  padding: .5;
-  margin: 1rem;
+  padding: 1rem;
+  margin: .5rem;
   min-width: 220px;
   border-radius: 1rem;
-  padding: 20px;
 }
 
 li.true {
@@ -63,7 +61,7 @@ form{
   flex-direction: row;
   border-radius: 2rem 2rem 0rem 0rem;
   margin: 0rem 8rem;
-  padding: 2rem 0rem 1rem 0rem;
+  padding: 1rem .5rem 1rem .75rem;
   background-color: hsla(35, 61%, 94%, 0.5);
   height: auto;
 }
